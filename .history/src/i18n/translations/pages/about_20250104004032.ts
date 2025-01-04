@@ -6,14 +6,13 @@ export const aboutTranslations = {
       description: 'Chez FanMa, nous sommes plus qu\'un simple bureau de génie-conseil : nous sommes des partenaires stratégiques pour vos projets. Forts de plus de 15 ans d\'expérience multidisciplinaire et d\'une expertise reconnue dans des secteurs variés, nous transformons vos défis en opportunités, tout en garantissant la qualité, la conformité et la performance.'
     },
     vision: {
-      
+      title1: 'Nos valeurs',
       title: 'Une vision multidisciplinaire',
       description1: 'Nous croyons en l\'importance de l\'innovation, de la collaboration, et d\'une approche orientée résultats. Nous cherchons à transformer chaque défi en une opportunité, tout en garantissant des standards élevés de qualité et de sécurité.',
       description2: 'Notre équipe, composée d\'ingénieurs certifiés et de spécialistes en gestion de projet, conçoit des solutions innovantes et adaptées à vos besoins spécifiques.'
     },
     values: [
       {
-        title1: 'Nos valeurs',
         title: 'Excellence',
         description: 'Chaque projet est exécuté avec un souci du détail et une recherche constante de l\'excellence.'
       },
