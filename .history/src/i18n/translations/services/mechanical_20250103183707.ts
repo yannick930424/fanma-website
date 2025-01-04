@@ -1,6 +1,3 @@
-import { cfdTranslations } from "./mechanical/cfd";
-
-
 export const mechanicalTranslations = {
   fr: {
     title: 'Conception Mécanique',
@@ -27,7 +24,6 @@ export const mechanicalTranslations = {
             description: 'Conception des plans pour construction ainsi que l\'analyse de la résistance des structures.'
           }
         ]
-        
       },
       prototyping: {
         title: 'Prototypage rapide et tests de performance',
@@ -97,8 +93,7 @@ export const mechanicalTranslations = {
           'Planification et fabrication de machines industrielles prêtes à l\'emploi, réduisant les délais d\'installation pour les clients'
         ]
       }
-    },
-    ...cfdTranslations.fr
+    }
   },
   en: {
     title: 'Mechanical Design',
@@ -194,7 +189,6 @@ export const mechanicalTranslations = {
           'Planning and manufacturing of ready-to-use industrial machines, reducing installation time for clients'
         ]
       }
-    },
-    ...cfdTranslations.en
+    }
   }
 };

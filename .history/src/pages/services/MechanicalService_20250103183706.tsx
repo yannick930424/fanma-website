@@ -5,14 +5,12 @@ import ExpertiseSection from '../../components/services/mechanical/ExpertiseSect
 import IndustriesSection from '../../components/services/mechanical/IndustriesSection';
 import ProcessSection from '../../components/services/mechanical/ProcessSection';
 import WhyChooseSection from '../../components/services/mechanical/WhyChooseSection';
-import CFDSection from '../../components/services/mechanical/CFDSection';
 
 export default function MechanicalService() {
   return (
     <div>
       <ServiceHero serviceKey="mechanical" />
       <ExpertiseSection />
-      <CFDSection />
       <IndustriesSection />
       <ProcessSection />
       <WhyChooseSection />

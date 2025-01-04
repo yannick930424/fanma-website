@@ -2,7 +2,7 @@ import React from 'react';
 import { Linkedin, Twitter, Facebook } from 'lucide-react';
 
 const socialLinks = {
-  linkedin: "https://www.linkedin.com/company/fanma-expert-conseil",
+  linkedin: "https://linkedin.com/company/fanma",
   twitter: "https://twitter.com/fanma",
   facebook: "https://facebook.com/fanma"
 };
