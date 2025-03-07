@@ -8,6 +8,9 @@ export const commonTranslations = {
       history: 'Histoire',
       contact: 'Contact'
     },
+    common: {
+      learnMore: 'En savoir plus'
+    },
     footer: {
       quickLinks: 'Liens rapides',
       contact: 'Contact',
@@ -28,6 +31,9 @@ export const commonTranslations = {
       about: 'About',
       history: 'History',
       contact: 'Contact'
+    },
+    common: {
+      learnMore: 'Learn more'
     },
     footer: {
       quickLinks: 'Quick Links',

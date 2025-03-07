@@ -18,10 +18,9 @@ export interface AnalyticsEvent {
 }
 
 // Ajoutez ceci dans types.ts
-// Pour types.ts
 declare global {
   interface Window {
-    dataLayer: unknown[];
-    gtag: (...args: unknown[]) => void;
+    dataLayer: any[];
+    gtag: (...args: any[]) => void;
   }
 }

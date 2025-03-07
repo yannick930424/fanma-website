@@ -18,7 +18,7 @@ export function initGA4(): void {
   window.dataLayer = window.dataLayer || [];
 // Dans ga4.ts et google-ads.ts
 window.gtag = function(...args: unknown[]) {
-  window.dataLayer.push(args);
+  window.dataLayer.push(arguments);
 };
   window.gtag('js', new Date());
   window.gtag('config', measurementId);

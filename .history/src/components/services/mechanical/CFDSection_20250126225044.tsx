@@ -17,7 +17,7 @@ export default function CFDSection() {
               <img 
                 src="https://fanma.ca/images/champs_vitesse.png" 
                 alt={t.cfd1.title}
-                className="w-full h-100 object-cover transition-transform duration-300 group-hover:scale-105"
+                className="w-full h-56 object-cover transition-transform duration-300 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-black bg-opacity-40 transition-opacity duration-300 group-hover:bg-opacity-30 flex items-center justify-center">
                 <h3 className="text-white text-2xl font-bold text-center px-6">
@@ -32,7 +32,7 @@ export default function CFDSection() {
               <img 
                 src="https://fanma.ca/images/champ_temp_ligne_courant.png" 
                 alt={t.cfd2.title}
-                className="w-full h-100 object-cover transition-transform duration-300 group-hover:scale-105"
+                className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-black bg-opacity-40 transition-opacity duration-300 group-hover:bg-opacity-30 flex items-center justify-center">
                 <h3 className="text-white text-2xl font-bold text-center px-6">

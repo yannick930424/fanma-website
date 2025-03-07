@@ -1,4 +1,3 @@
-import { NavTranslations, FooterTranslations } from '../types';
 
 export const commonTranslations = {
   fr: {
@@ -9,15 +8,18 @@ export const commonTranslations = {
       history: 'Histoire',
       contact: 'Contact'
     },
+    common: {
+      learnMore: 'En savoir plus'
+    },
     footer: {
       quickLinks: 'Liens rapides',
       contact: 'Contact',
       followUs: 'Suivez-nous',
       description: 'FanMa offre des solutions d\'ingénierie innovantes pour vos projets les plus ambitieux',
-      address: '123 Rue Saint-Laurent, Montréal, QC H2Y 1Y7',
-      phone: '+1 (514) 555-0123',
+      address: '13450 Rue Simetin, Mirabel, QC J7N 0Z8',
+      phone: '(514) 577-8578',
       email: 'info@fanma.ca',
-      copyright: '© 2024 FanMa. Tous droits réservés.',
+      copyright: '© 2025 FanMa. Tous droits réservés.',
       privacyPolicy: 'Politique de confidentialité',
       termsOfUse: 'Conditions d\'utilisation'
     }
@@ -30,15 +32,18 @@ export const commonTranslations = {
       history: 'History',
       contact: 'Contact'
     },
+    common: {
+      learnMore: 'Learn more'
+    },
     footer: {
       quickLinks: 'Quick Links',
       contact: 'Contact',
       followUs: 'Follow Us',
       description: 'FanMa provides innovative engineering solutions for your most ambitious projects',
-      address: '123 Saint-Laurent Street, Montreal, QC H2Y 1Y7',
-      phone: '+1 (514) 555-0123',
+      address: '13450 Rue Simetin, Mirabel, QC J7N 0Z8',
+      phone: '(514) 577-8578',
       email: 'info@fanma.ca',
-      copyright: '© 2024 FanMa. All rights reserved.',
+      copyright: '© 2025 FanMa. All rights reserved.',
       privacyPolicy: 'Privacy Policy',
       termsOfUse: 'Terms of Use'
     }

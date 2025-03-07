@@ -1,8 +1,6 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { useLanguage } from '../../hooks/useLanguage';
-import { translations } from '../../i18n/translations';
 
 interface ServiceCardProps {
   title: string;
@@ -21,9 +19,6 @@ export default function ServiceCard({
   features,
   isDetailed = false 
 }: ServiceCardProps) {
-  const { language } = useLanguage();
-  const t = translations[language];
-
   return (
     <div className={`bg-white rounded-xl shadow-lg overflow-hidden transition-transform duration-300 hover:scale-[1.02] ${
       isDetailed ? 'flex flex-col' : ''
@@ -56,7 +51,7 @@ export default function ServiceCard({
           to={link}
           className="inline-flex items-center text-blue-600 hover:text-blue-700 font-semibold"
         >
-          {t.common.learnMore} <ArrowRight className="ml-2 w-5 h-5" />
+          En savoir plus <ArrowRight className="ml-2 w-5 h-5" />
         </Link>
       </div>
     </div>

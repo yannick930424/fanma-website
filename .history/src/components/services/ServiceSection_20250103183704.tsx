@@ -1,8 +1,6 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { translations } from '../../i18n/translations';
-import { useLanguage } from '../../hooks/useLanguage';
 
 interface ServiceSectionProps {
   title: string;
@@ -21,8 +19,6 @@ export default function ServiceSection({
   link,
   isReversed = false
 }: ServiceSectionProps) {
-  const { language } = useLanguage();
-  const t = translations[language];
   return (
     <section className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4">
@@ -46,7 +42,7 @@ export default function ServiceSection({
               to={link}
               className="inline-flex items-center text-blue-600 hover:text-blue-700 font-semibold group"
             >
-              {t.common.learnMore}
+              En savoir plus
               <ArrowRight className="ml-2 w-5 h-5 transform group-hover:translate-x-1 transition-transform" />
             </Link>
           </div>

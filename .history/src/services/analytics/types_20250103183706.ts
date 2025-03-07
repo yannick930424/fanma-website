@@ -16,12 +16,3 @@ export interface AnalyticsEvent {
   label?: string;
   value?: number;
 }
-
-// Ajoutez ceci dans types.ts
-// Pour types.ts
-declare global {
-  interface Window {
-    dataLayer: unknown[];
-    gtag: (...args: unknown[]) => void;
-  }
-}

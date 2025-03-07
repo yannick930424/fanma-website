@@ -1,6 +1,12 @@
 import { analyticsConfig } from './config';
 import type { AnalyticsEvent } from './types';
 
+declare global {
+  interface Window {
+    gtag: (...args: any[]) => void;
+  }
+}
+
 export function initGA4(): void {
   const { measurementId } = analyticsConfig.googleAnalytics;
   
@@ -16,10 +22,9 @@ export function initGA4(): void {
   document.head.appendChild(script);
 
   window.dataLayer = window.dataLayer || [];
-// Dans ga4.ts et google-ads.ts
-window.gtag = function(...args: unknown[]) {
-  window.dataLayer.push(args);
-};
+  window.gtag = function() {
+    window.dataLayer.push(arguments);
+  };
   window.gtag('js', new Date());
   window.gtag('config', measurementId);
 }

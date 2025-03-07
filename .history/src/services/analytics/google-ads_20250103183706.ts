@@ -15,10 +15,9 @@ export function initGoogleAds(): void {
   document.head.appendChild(script);
 
   window.dataLayer = window.dataLayer || [];
-// Dans ga4.ts et google-ads.ts
-window.gtag = function(...args: unknown[]) {
-  window.dataLayer.push(args);
-};
+  window.gtag = function() {
+    window.dataLayer.push(arguments);
+  };
   window.gtag('js', new Date());
   window.gtag('config', `AW-${conversionId}`);
 }
